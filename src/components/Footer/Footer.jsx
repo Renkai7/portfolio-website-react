@@ -14,4 +14,10 @@ import {
 	SocialIconsContainer,
 } from "./FooterStyles";
 
-const Footer = () => <FooterWrapper></FooterWrapper>;
+const Footer = () => (
+	<FooterWrapper>
+		<LinkList></LinkList>
+	</FooterWrapper>
+);
+
+export default Footer;

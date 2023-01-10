@@ -118,10 +118,26 @@ export const SocialIcons = styled.a`
 	transition: 0.3s ease;
 	color: white;
 	border-radius: 50px;
-	padding: 8px;
+	padding: 9px;
 	&:hover {
-		background-color: #212d45;
+		${"" /* box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5); */}
+
+		${"" /* background-color: #212d45; */}
+		${"" /* fill: linear-gradient(#e66465, #9198e5); */}
 		transform: scale(1.2);
 		cursor: pointer;
+
+		&:before {
+			content: "";
+			z-index: -1;
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background: linear-gradient(-45deg, #60efff 0%, #00ff87 100%);
+			filter: blur(20px);
+			opacity: 0.7;
+		}
 	}
 `;
