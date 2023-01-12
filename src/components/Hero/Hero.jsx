@@ -13,7 +13,7 @@ const Hero = (props) => {
 		<Section row nopadding>
 			<LeftSection>
 				<SectionTitle main center>
-					Python <br /> React Developer
+					Python / React <br /> Developer
 				</SectionTitle>
 				<SectionText>
 					I’m a Developer looking for a new role in an exciting company. I’d
